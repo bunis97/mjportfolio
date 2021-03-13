@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>웹퍼블리셔 한미지</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/index.js"></script>
+</head>
+<body>
+    <nav id="gnb">
+        <ul>
+          <li><a href="./index.html">HOME</a></li>
+          <li><a href="./about.html">ABOUT</a></li>
+          <li  class="active"><a href="./works.html">WORKS</a></li>
+          <li><a href="./contact.html">CONTACT</a></li>
+        </ul>
+        <button class="btn-close">
+          <img src="./images/close.png" alt="닫기 버튼">
+        </button>
+      </nav>
+
+      <section id="works">
+        <button class="btn-toggle">
+            <img src="./images/menu_b.png" alt="toggle">
+        </button>
+        <div class="hello" data-aos="fade-right">
+            <p>My works</p>
+            <img src="./images/bar.png">
+          </div>
+          <nav class="Wgnb">
+            <button id="btn-all">ALL</button>
+            <button id="btn-design">DESIGN</button>
+            <button id="btn-homepage">HOMEPAGE</button>
+        </nav>
+
+          <ul class="list">
+            <li class="col_4 homepage">
+              <a href="./juicy.html" target="bli">
+                <img id="computer" src="./images/juicy.png" alt="1">
+              </a>
+            </li>
+            <li class="col_4 homepage">
+              <a  href="./happy.html" target="bli">
+                <img id="computer" src="./images/happy.png" alt="2">
+              </a>
+            </li>
+            <li class="col_4 homepage">
+              <a href="./zootopia.html" target="bli">
+                <img id="computer" src="./images/zootopia.png" alt="3">
+              </a>
+            </li>
+            <li class="col_4 design">
+              <a data-fancybox="gallery" href="./images/book.jpg">
+                <img src="./images/book-min.jpg" alt="4">
+              </a>
+            </li>
+            <li class="col_4 design">
+              <a data-fancybox="gallery" href="./images/new.jpg">
+                <img src="./images/new-min.jpg" alt="5">
+              </a>
+            </li>
+    
+            <li class="col_4 design">
+              <a data-fancybox="gallery" href="./images/poster.png">
+                <img src="./images/poster-min.png" alt="6">
+              </a>
+            </li>     
+    
+            <li class="col_4 design">
+              <a data-fancybox="gallery" href="./images/strawberry.png">
+                <img src="./images/strawberry-min.png" alt="7">
+              </a>
+            </li>
+            <li class="col_4 design">
+              <a data-fancybox="gallery"  href="./images/korea.jpg">
+                <img id="picture" src="./images/korea-min.jpg" alt="8">
+              </a>
+            </li>
+            <li class="col_4 design">
+              <a data-fancybox="gallery" href="./images/kiehls.jpg">
+                <img id="picture"  src="./images/kiehls-min.jpg" alt="9">
+              </a>
+            </li>
+    
+          </ul>
+
+      </section>
+
+</body>
+</html>
